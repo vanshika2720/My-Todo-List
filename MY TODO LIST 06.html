@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Todo List</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="path/to/favicon.ico">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    </head>
+    <body>
+        
+            <h1 class="highlight" style="color:rebeccapurple;">MY TODO LIST</h1>
+            <div class="container">
+              <input type="text" id="taskInput1" placeholder="Enter a task" class="taskInput">
+            <button id="addBtn">Add Task</button>
+            <ul id="tasklist"></ul>
+<input type="date" id="dueDateInput" placeholder="DATE">
+    <button onclick="myFunction()">Toggle dark mode</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<script src="script.js" defer></script>
+</div>
+</body>
+</html>

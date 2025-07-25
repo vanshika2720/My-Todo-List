@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+h1{
+    text-align:center;
+
+}
+
+button{
+    font-size: large;
+    padding: 14px 40px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+ display: flex wrap
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button{
+    background-color: white;
+    color:black;
+    border: 2px solid rebeccapurple;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#taskInput1{
+    font-size: large;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+#dueDateInput{
+    font-size: large;
+    padding: 14px 40px;
+    justify-content: center;
+    
+}
+.container {
+    display:flex;
+   flex-direction: column; 
+    justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.delete-btn {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.task-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.task-date {
+  margin-left: 10px;
+  font-style: italic;
+  color: #555;
+  font-size: 16px;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 6px;
+}
+.date-badge {
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.date-badge .calendar-icon {
+  font-size: 16px;
+}
+.dark-mode .task-text{
+    color:black;
+}
+
